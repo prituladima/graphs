@@ -15,6 +15,7 @@ public class ParametrizedArgumentSupplier implements Supplier<Stream<Arguments>>
     public static final String BFS = "bfs";
     public static final String DFS = "dfs";
     public static final String TOP_SORT = "top";
+    public static final String BACKTRACKING = "backtrack";
 
     private static final String BASE = System.getProperty("user.dir");
     //    private static final int AMOUNT_OF_TESTS = 9;
@@ -25,6 +26,7 @@ public class ParametrizedArgumentSupplier implements Supplier<Stream<Arguments>>
         suppliers.computeIfAbsent(BFS, key -> new ParametrizedArgumentSupplier(type));
         suppliers.computeIfAbsent(DFS, key -> new ParametrizedArgumentSupplier(type));
         suppliers.computeIfAbsent(TOP_SORT, key -> new ParametrizedArgumentSupplier(type));
+        suppliers.computeIfAbsent(BACKTRACKING, key -> new ParametrizedArgumentSupplier(type));
         return suppliers.get(type);
     }
 
@@ -47,12 +49,19 @@ public class ParametrizedArgumentSupplier implements Supplier<Stream<Arguments>>
                 Map<Integer, Collection<Integer>> graph = new HashMap<>();
                 readGraph(graph, inScanner);
                 int from = readFromVertex(inScanner);
+                int to = readFromVertex(inScanner);
                 List<Integer> expectedResult = new ArrayList<>();
-                readExpectedResult(expectedResult, outScanner);
-                if (type.equals(TOP_SORT))
+
+                if (type.equals(TOP_SORT)) {
+                    readExpectedResult(expectedResult, outScanner);
                     ans.add(Arguments.of(name, graph, expectedResult));
-                else if (type.equals(DFS) || type.equals(BFS))
+                } else if (type.equals(DFS) || type.equals(BFS)) {
+                    readExpectedResult(expectedResult, outScanner);
                     ans.add(Arguments.of(name, graph, from, expectedResult));
+                } else if(type.equals(BACKTRACKING)){
+                    int amount = readFromVertex(outScanner);
+                    ans.add(Arguments.of(name, graph, from, to, amount));
+                }
             }
         } catch (FileNotFoundException e) {
             System.out.println(e);
