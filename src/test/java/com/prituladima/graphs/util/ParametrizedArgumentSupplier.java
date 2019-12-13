@@ -14,6 +14,7 @@ public class ParametrizedArgumentSupplier implements Supplier<Stream<Arguments>>
 
     public static final String BFS = "bfs";
     public static final String DFS = "dfs";
+    public static final String TOP_SORT = "top";
 
     private static final String BASE = System.getProperty("user.dir");
 //    private static final int AMOUNT_OF_TESTS = 9;
@@ -23,6 +24,7 @@ public class ParametrizedArgumentSupplier implements Supplier<Stream<Arguments>>
         suppliers = new HashMap<>();
         suppliers.computeIfAbsent(BFS, key -> new ParametrizedArgumentSupplier(type));
         suppliers.computeIfAbsent(DFS, key -> new ParametrizedArgumentSupplier(type));
+        suppliers.computeIfAbsent(TOP_SORT, key -> new ParametrizedArgumentSupplier(type));
         return suppliers.get(type);
     }
 

@@ -1,6 +1,5 @@
 package com.prituladima.graphs;
 
-import com.prituladima.graphs.algos.DFSImpl;
 import com.prituladima.graphs.algos.TopSortImpl;
 import com.prituladima.graphs.util.VariableSource;
 import org.junit.jupiter.params.ParameterizedTest;
@@ -12,13 +11,14 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Stream;
 
-import static com.prituladima.graphs.util.ParametrizedArgumentSupplier.DFS;
+import static com.prituladima.graphs.util.ParametrizedArgumentSupplier.TOP_SORT;
 import static com.prituladima.graphs.util.ParametrizedArgumentSupplier.supplier;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class TopSortTest {
 
-    public static Stream<Arguments> ARGUMENTS = supplier(DFS).get();
+    public static Stream<Arguments> ARGUMENTS = supplier(TOP_SORT).get();
 
     @ParameterizedTest
     @VariableSource("ARGUMENTS")
@@ -29,10 +29,13 @@ public class TopSortTest {
 
         //WHEN
         List<Integer> actualAns = new ArrayList<>();
-        topSort.topSort(graph, actualAns);
+        if (!expectedAns.isEmpty()) {
+            topSort.topSort(graph, actualAns);
+            assertEquals(expectedAns, actualAns);
+        } else assertThrows(CyclicDependencyException.class, () -> {
+            topSort.topSort(graph, actualAns);
+        });
 
-        //THEN
-        assertEquals(expectedAns, actualAns);
 
     }
 
