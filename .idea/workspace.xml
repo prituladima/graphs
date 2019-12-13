@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56836ffe-8b6e-4c64-b56c-ae6678fffb59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/prituladima/graphs/datastructure/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/output.top.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/prituladima/graphs/algos/TopSortImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prituladima/graphs/algos/TopSortImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/prituladima/graphs/TopSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/prituladima/graphs/TopSortTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/prituladima/graphs/util/ParametrizedArgumentSupplier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/prituladima/graphs/util/ParametrizedArgumentSupplier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/prituladima/graphs/BFSImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/prituladima/graphs/BackTrackingImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/prituladima/graphs/DFSImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/prituladima/graphs/DisjointUnionSets.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/prituladima/graphs/TestsReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/prituladima/graphs/TestsReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/prituladima/graphs/TopSortImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/prituladima/graphs/BFSTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/prituladima/graphs/BFSTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/prituladima/graphs/DFSTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/prituladima/graphs/DFSTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/prituladima/graphs/DJUSTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/prituladima/graphs/DJUSTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/prituladima/graphs/util/ParametrizedArgumentSupplier.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/prituladima/graphs/util/ParametrizedArgumentSupplier.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +135,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576267820603</updated>
-      <workItem from="1576267823299" duration="4192000" />
+      <workItem from="1576267823299" duration="4462000" />
     </task>
     <task id="LOCAL-00001" summary="ic">
       <created>1576270936430</created>
@@ -158,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576270936430</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ic">
+      <created>1576272077654</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576272077654</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,30 +170,34 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1576269022335" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1576270935275">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1576272076494">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1576270935275" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1576272076494" />
+    <state x="129" y="54" key="DiffContextDialog" timestamp="1576272047474">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="129" y="54" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1576272047474" />
     <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1576270843428">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1576270843428" />
-    <state width="1323" height="257" key="GridCell.Tab.0.bottom" timestamp="1576272028507">
+    <state width="1323" height="257" key="GridCell.Tab.0.bottom" timestamp="1576272376149">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="257" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576272028507" />
-    <state width="1323" height="257" key="GridCell.Tab.0.center" timestamp="1576272028507">
+    <state width="1323" height="257" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576272376149" />
+    <state width="1323" height="257" key="GridCell.Tab.0.center" timestamp="1576272376148">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="257" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1576272028507" />
-    <state width="1323" height="257" key="GridCell.Tab.0.left" timestamp="1576272028507">
+    <state width="1323" height="257" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1576272376148" />
+    <state width="1323" height="257" key="GridCell.Tab.0.left" timestamp="1576272376148">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="257" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1576272028507" />
-    <state width="1323" height="257" key="GridCell.Tab.0.right" timestamp="1576272028507">
+    <state width="1323" height="257" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1576272376148" />
+    <state width="1323" height="257" key="GridCell.Tab.0.right" timestamp="1576272376148">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="257" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1576272028507" />
+    <state width="1323" height="257" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1576272376148" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1576269916827">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -217,10 +214,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1576269916827" />
-    <state x="275" y="85" key="Vcs.Push.Dialog.v2" timestamp="1576271013679">
+    <state x="275" y="85" key="Vcs.Push.Dialog.v2" timestamp="1576272082951">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="85" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1576271013679" />
+    <state x="275" y="85" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1576272082951" />
     <state x="346" y="49" key="search.everywhere.popup" timestamp="1576270856484">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

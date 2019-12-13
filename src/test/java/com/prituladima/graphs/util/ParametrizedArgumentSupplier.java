@@ -17,7 +17,7 @@ public class ParametrizedArgumentSupplier implements Supplier<Stream<Arguments>>
     public static final String TOP_SORT = "top";
 
     private static final String BASE = System.getProperty("user.dir");
-//    private static final int AMOUNT_OF_TESTS = 9;
+    //    private static final int AMOUNT_OF_TESTS = 9;
     private static Map<String, ParametrizedArgumentSupplier> suppliers;
 
     public static ParametrizedArgumentSupplier supplier(String type) {
@@ -28,7 +28,7 @@ public class ParametrizedArgumentSupplier implements Supplier<Stream<Arguments>>
         return suppliers.get(type);
     }
 
-    private String type;
+    private final String type;
 
     private ParametrizedArgumentSupplier(String type) {
         this.type = type;
@@ -49,7 +49,10 @@ public class ParametrizedArgumentSupplier implements Supplier<Stream<Arguments>>
                 int from = readFromVertex(inScanner);
                 List<Integer> expectedResult = new ArrayList<>();
                 readExpectedResult(expectedResult, outScanner);
-                ans.add(Arguments.of(name, graph, from, expectedResult));
+                if (type.equals(TOP_SORT))
+                    ans.add(Arguments.of(name, graph, expectedResult));
+                else if (type.equals(DFS) || type.equals(BFS))
+                    ans.add(Arguments.of(name, graph, from, expectedResult));
             }
         } catch (FileNotFoundException e) {
             System.out.println(e);

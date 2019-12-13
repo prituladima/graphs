@@ -22,7 +22,7 @@ public class TopSortTest {
 
     @ParameterizedTest
     @VariableSource("ARGUMENTS")
-    void test_top_sort_order(String name, Map<Integer, Collection<Integer>> graph, int from, List<Integer> expectedAns) {
+    void test_top_sort_order(String name, Map<Integer, Collection<Integer>> graph, List<Integer> expectedAns) {
 
         //GIVEN
         TopSortImpl topSort = new TopSortImpl();
