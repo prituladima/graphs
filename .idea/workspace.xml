@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56836ffe-8b6e-4c64-b56c-ae6678fffb59" name="Default Changelist" comment="ic">
+    <list default="true" id="56836ffe-8b6e-4c64-b56c-ae6678fffb59" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/prituladima/graphs/algos/BFSImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prituladima/graphs/algos/BFSImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/prituladima/graphs/algos/BackTrackingImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prituladima/graphs/algos/BackTrackingImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/prituladima/graphs/algos/DFSImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prituladima/graphs/algos/DFSImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/prituladima/graphs/algos/TopSortImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prituladima/graphs/algos/TopSortImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/prituladima/graphs/datastructure/DisjointUnionSets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prituladima/graphs/datastructure/DisjointUnionSets.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +135,7 @@
       <option name="presentableId" value="Default" />
       <updated>1576267820603</updated>
       <workItem from="1576267823299" duration="7682000" />
-      <workItem from="1576307817650" duration="571000" />
+      <workItem from="1576307817650" duration="822000" />
     </task>
     <task id="LOCAL-00001" summary="ic">
       <created>1576270936430</created>
@@ -177,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576274239066</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ic">
+      <created>1576308668067</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1576308668067</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,10 +202,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1576269022335" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1576308620043">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1576308665922">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1576308620043" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1576308665922" />
     <state x="129" y="54" key="DiffContextDialog" timestamp="1576308618152">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -212,22 +214,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1576270843428" />
-    <state width="1323" height="257" key="GridCell.Tab.0.bottom" timestamp="1576274088682">
+    <state width="1323" height="257" key="GridCell.Tab.0.bottom" timestamp="1576308772988">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="257" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576274088682" />
-    <state width="1323" height="257" key="GridCell.Tab.0.center" timestamp="1576274088681">
+    <state width="1323" height="257" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576308772988" />
+    <state width="1323" height="257" key="GridCell.Tab.0.center" timestamp="1576308772988">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="257" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1576274088681" />
-    <state width="1323" height="257" key="GridCell.Tab.0.left" timestamp="1576274088681">
+    <state width="1323" height="257" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1576308772988" />
+    <state width="1323" height="257" key="GridCell.Tab.0.left" timestamp="1576308772987">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="257" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1576274088681" />
-    <state width="1323" height="257" key="GridCell.Tab.0.right" timestamp="1576274088681">
+    <state width="1323" height="257" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1576308772987" />
+    <state width="1323" height="257" key="GridCell.Tab.0.right" timestamp="1576308772988">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="257" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1576274088681" />
+    <state width="1323" height="257" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1576308772988" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1576269916827">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -244,10 +246,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1576269916827" />
-    <state x="275" y="85" key="Vcs.Push.Dialog.v2" timestamp="1576274146393">
+    <state x="275" y="85" key="Vcs.Push.Dialog.v2" timestamp="1576308670774">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="85" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1576274146393" />
+    <state x="275" y="85" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1576308670774" />
     <state x="346" y="49" key="search.everywhere.popup" timestamp="1576270856484">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

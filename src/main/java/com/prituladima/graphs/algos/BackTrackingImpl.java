@@ -7,7 +7,7 @@ import java.util.Map;
 public class BackTrackingImpl {
 
     public int go(int from, int to, Map<Integer, Collection<Integer>> graph) {
-        return 0;
+        return -1;
     }
 
 }
