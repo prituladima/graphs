@@ -1,14 +1,13 @@
 package com.prituladima.graphs.algos;
 
 import java.util.Collection;
-import java.util.Deque;
 import java.util.Map;
 
-// TODO: 13.12.2019
+// TODO: 13.12.2019 Find any path from - to
 public class BackTrackingImpl {
 
-    public void go(int from, int to, Map<Integer, Collection<Integer>> graph, Deque<Integer> ans) {
-
+    public int go(int from, int to, Map<Integer, Collection<Integer>> graph) {
+        return 0;
     }
 
 }
