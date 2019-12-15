@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="56836ffe-8b6e-4c64-b56c-ae6678fffb59" name="Default Changelist" comment="ic">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="56836ffe-8b6e-4c64-b56c-ae6678fffb59" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/prituladima/graphs/algos/BFSImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prituladima/graphs/algos/BFSImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/prituladima/graphs/algos/BackTrackingImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prituladima/graphs/algos/BackTrackingImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/prituladima/graphs/algos/DFSImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prituladima/graphs/algos/DFSImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/prituladima/graphs/algos/TopSortImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prituladima/graphs/algos/TopSortImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/prituladima/graphs/datastructure/DisjointUnionSets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prituladima/graphs/datastructure/DisjointUnionSets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/prituladima/graphs/datastructure/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/prituladima/graphs/datastructure/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/prituladima/graphs/BacktrackingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/prituladima/graphs/BacktrackingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/prituladima/graphs/DFSTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/prituladima/graphs/DFSTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/prituladima/graphs/DFSTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/prituladima/graphs/DFSTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,9 +69,9 @@
       <recent name="com.prituladima.graphs" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dmytro Prytula\IdeaProjects\graphs" />
       <recent name="C:\Users\Dmytro Prytula\IdeaProjects\graphs\src\main\java\com\prituladima\graphs" />
       <recent name="C:\Users\Dmytro Prytula\IdeaProjects\graphs\src\test\java\com\prituladima\graphs" />
-      <recent name="C:\Users\Dmytro Prytula\IdeaProjects\graphs" />
       <recent name="C:\Users\Dmytro Prytula\IdeaProjects\graphs\src\test" />
     </key>
   </component>
@@ -161,7 +151,7 @@
       <option name="presentableId" value="Default" />
       <updated>1576267820603</updated>
       <workItem from="1576267823299" duration="7682000" />
-      <workItem from="1576307817650" duration="6332000" />
+      <workItem from="1576307817650" duration="7477000" />
     </task>
     <task id="LOCAL-00001" summary="ic">
       <created>1576270936430</created>
@@ -219,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576309884257</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Solution">
+      <created>1576407731534</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1576407731534</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,7 +224,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ic" />
-    <option name="LAST_COMMIT_MESSAGE" value="ic" />
+    <MESSAGE value="Solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solution" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="22" key="#Project_Structure" timestamp="1576267857054">
@@ -242,10 +240,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1576269022335" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1576407537921">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1576407730459">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1576407537921" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1576407730459" />
     <state x="129" y="54" key="DiffContextDialog" timestamp="1576308618152">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -286,10 +284,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1576269916827" />
-    <state x="275" y="85" key="Vcs.Push.Dialog.v2" timestamp="1576309886949">
+    <state x="275" y="85" key="Vcs.Push.Dialog.v2" timestamp="1576407734120">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="85" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1576309886949" />
+    <state x="275" y="85" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1576407734120" />
     <state x="346" y="49" key="search.everywhere.popup" timestamp="1576270856484">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
