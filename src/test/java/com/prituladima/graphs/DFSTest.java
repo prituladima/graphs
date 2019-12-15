@@ -27,7 +27,7 @@ public class DFSTest {
 
         //WHEN
         List<Integer> actualAns = new ArrayList<>();
-        dfsImpl.dfs(from, graph, actualAns);
+        dfsImpl.dfs(from, graph, actualAns, 0);
 
         //THEN
         assertEquals(expectedAns, actualAns);

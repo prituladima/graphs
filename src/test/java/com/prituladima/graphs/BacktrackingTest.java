@@ -31,6 +31,7 @@ public class BacktrackingTest {
         //WHEN
         int actualAns = backTracking.go(form, to, graph);
 
+        System.out.printf("From %d dest %d - > %d\n", form, to, actualAns);
         //THEN
         assertEquals(expectedAns, actualAns);
 
